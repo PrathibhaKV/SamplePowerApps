@@ -1,0 +1,31 @@
+{
+  "805255e4-26f1-4511-977d-a94ed19031bf": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://y5sx6-my.sharepoint.com/personal/powerapps_y5sx6_onmicrosoft_com/_layouts/15/lists.aspx": {
+        "dataSources": {
+          "Swimming Registration Details": {
+            "tableName": "efc6c5be-3069-4d83-af3f-1e91d6343c13"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Swimming Registration Details"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "805255e4-26f1-4511-977d-a94ed19031bf"
+  }
+}
